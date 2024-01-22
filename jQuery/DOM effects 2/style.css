@@ -1,0 +1,118 @@
+body {
+  background-color: #1e69ad;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 20px;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  background-color: #cccccc;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  transition: 0.2s;
+  background-color: #1e69ad;
+  border-radius: 40px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  font-weight: bold;
+}
+
+
+
+/* Content */
+
+#title {
+  margin-top: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  background-color: #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  flex-basis: calc(33.33% - 40px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #272727;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.demo-container {
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #1e69ad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#image-source {
+  width: 300px;
+  height: 300px;
+}
+
+#image-source-button {
+  margin-top: 10px;
+}
+
+#append-target ul,
+#replace-target button,
+#style-target p,
+#image-source-target img,
+#link-target a,
+#text-content-target p {
+  display: block;
+  margin: 0 auto;
+}
+
+.link {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.highlight {
+  color: red;
+  font-weight: bold;
+}

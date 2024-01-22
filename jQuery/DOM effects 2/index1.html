@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>DOM and Attribute Modification</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/x-icon" href="../images.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link" href="../DOM Traversal 1/index2.html">DOM and JQuery Intro</a>
+            <a class="nav-link" href="../DOM effects 2/index1.html">DOM and DOM Attribute Modifications</a>
+            <a class="nav-link" href="../Web manipulations 3/index.html">CSS, JavaScript, HTML with JQuery</a>
+            <a class="nav-link" href="../DOM of this website/index4.html">DOM of this Website</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <h1 id="title">DOM and DOM Attribute Modification</h1>
+    <h5 id="description"> DOM modification is the process of dynamically changing element structure, content, or attributes in the Document Object Model (DOM). The program allows you to change web page elements based on user interactions, data input, or other programmatic conditions.<br><br>Document Object Model (DOM) attribute modification is the process of updating HTML elements' attributes using JavaScript. Element attributes can be dynamically modified based on user interactions, data changes, or other programmatic conditions.<br><br> Here are some common DOM and DOM attribute modification techniques.</h5>
+
+    <div class="flex-container">
+      <div class="flex-item">
+        <h2>Append or Remove Item</h2>
+        <div class="demo-container">
+          <div id="append-target">
+            <ul>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ul>
+          </div>
+          <button id="append-remove-button" class="btn">
+            Add or Remove Item
+          </button>
+        </div>
+        <p class="description">
+          Click the "Add or Remove Item" button to add or remove an item from
+          the list.
+        </p>
+      </div>
+
+      <div class="flex-item">
+        <h2>Replace Element</h2>
+        <div class="demo-container">
+          <div id="replace-target">
+            <img id="image" src="dog.jpg" alt="Dog Image" />
+          </div>
+          <button id="replace-button" class="btn">Replace Element</button>
+        </div>
+        <p class="description">
+          Click the "Replace Element" button to replace the image with a button
+          element and vice versa.
+        </p>
+      </div>
+
+      <div class="flex-item">
+        <h2>Change Style</h2>
+        <div class="demo-container">
+          <div id="style-target">
+            <p id="text">Styled Text</p>
+          </div>
+          <button id="style-button" class="btn">Change Style</button>
+        </div>
+        <p class="description">
+          Click the "Change Style" button to change the style of the text.
+        </p>
+      </div>
+
+      <div class="flex-item">
+        <h2>Change Image Source</h2>
+        <div class="demo-container">
+          <div id="image-source-target">
+            <img id="image-source" src="dog.jpg" alt="Dog Image" />
+          </div>
+          <button id="image-source-button" class="btn">
+            Change Image Source
+          </button>
+        </div>
+        <p class="description">
+          Click the "Change Image Source" button to change the image source
+          between dog.jpg and cat.jpg.
+        </p>
+      </div>
+
+      <div class="flex-item">
+        <h2>Change Link</h2>
+        <div class="demo-container">
+          <div id="link-target">
+            <a id="link" href="https://www.google.com" target="_blank"
+              >Web Link</a
+            >
+          </div>
+          <button id="link-button" class="btn">Change Link</button>
+        </div>
+        <p class="description">
+          Click the "Change Link" button to change the link between google.com
+          and facebook.com.
+        </p>
+      </div>
+
+      <div class="flex-item">
+        <h2>Change Text Content</h2>
+        <div class="demo-container">
+          <div id="text-content-target">
+            <p id="text-content">Original Text</p>
+          </div>
+          <button id="text-content-button" class="btn">
+            Change Text Content
+          </button>
+        </div>
+        <p class="description">
+          Click the "Change Text Content" button to change the text content.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

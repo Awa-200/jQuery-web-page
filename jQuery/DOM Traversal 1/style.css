@@ -1,0 +1,110 @@
+body {
+  background-color: #1e69ad;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  background-color: #cccccc;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  transition: 0.2s;
+  background-color: #1e69ad;
+  border-radius: 40px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  font-weight: bold;
+}
+
+
+/* Content */
+
+.title {
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  font-weight: bold;
+}
+
+.title img {
+  margin-top: 2%;
+  width: 300px;
+  height: auto;
+  background-color: #ccc;
+  border-radius: 20px;
+}
+
+.dom-content {
+  text-align: left;
+  color: #fff;
+  display: block;
+  position: relative;
+  top: 200px;
+  left: 10px;
+  max-width: 700px;
+}
+
+/* DOM Traversal */
+
+.demo {
+  position: relative;
+  top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 300px;
+}
+
+.pic img {
+  display: block;
+  height: 350px;
+  width: auto;
+  margin-top: 5%;
+  border-radius: 20px;
+}
+
+.functional {
+  color: black;
+  font-family: Arial, sans-serif;
+  margin-bottom: 100px;
+}
+
+.functional h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.dom-tree {
+  text-align: left;
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.dom-tree ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.dom-tree .node {
+  cursor: pointer;
+}
+
+.dom-tree .node:hover {
+  color: red;
+  font-weight: bold;
+}
+
+.explanation {
+  text-align: center;
+  margin-top: 20px;
+}

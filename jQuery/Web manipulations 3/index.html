@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Demonstrations</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="../images.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body style="background-color: #1e69ad">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link" href="../DOM Traversal 1/index2.html">DOM and JQuery Intro</a>
+            <a class="nav-link" href="../DOM effects 2/index1.html">DOM and DOM Attribute Modifications</a>
+            <a class="nav-link" href="../Web manipulations 3/index.html">CSS, JavaScript, HTML with JQuery</a>
+            <a class="nav-link" href="../DOM of this website/index4.html">DOM of this Website</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container1">
+      <h2>CSS Manipulation</h2>
+      <h5>Using JavaScript, CSS manipulation modifies web page styles and appearances.Using JavaScript, CSS manipulation modifies web page styles and appearances. To achieve visual effects, layout adjustments, or interactive behavior, you can change CSS properties of DOM elements. </h5>
+      <div class="row1">
+        <div class="demo1">
+          <div class="box1" id="change-color-box"></div>
+          <button id="change-color">Change Color</button>
+          <p class="description1">
+            Click the button to change the color of the box.
+          </p>
+        </div>
+        <div class="demo1">
+          <div class="box1" id="change-size-box"></div>
+          <button id="change-size">Change Size</button>
+          <p class="description1">
+            Click the button to change the size of the box.
+          </p>
+        </div>
+        <div class="demo1">
+          <div class="box1" id="change-text-box"></div>
+          <button id="change-text">Change Text</button>
+          <p class="description1">
+            Click the button to change the text inside the box.
+          </p>
+        </div>
+      </div>
+
+      <h2>JavaScript Effects</h2>
+      <h5>Web elements can be animated and interactive with JavaScript effects. The effects enhance the user experience, make your website more attractive, and add interactivity. JavaScript libraries and frameworks provide pre-built effects, but you can also create your own.</h5>
+      <div class="row1">
+        <div class="demo1">
+          <div class="box1" id="fade-in-box"></div>
+          <button id="fade-in">Fade In</button>
+          <p class="description1">Click the button to fade in the box.</p>
+        </div>
+        <div class="demo1">
+          <div class="box1" id="slide-toggle-box"></div>
+          <button id="slide-toggle">Slide Toggle</button>
+          <p class="description1">Click the button to slide toggle the box.</p>
+        </div>
+        <div class="demo1">
+          <div class="box1" id="animate-box"></div>
+          <button id="animate">Animate</button>
+          <p class="description1">Click the button to animate the box.</p>
+        </div>
+      </div>
+
+      <h2>HTML Events</h2>
+      <h5>
+        HTML events are actions or occurrences that happen within an HTML document, triggered by user interactions or other system events. They allow you to create interactive and dynamic web pages by associating JavaScript code with specific events.</h5>
+      <div class="row1">
+        <div class="demo1">
+          <div class="box1" id="click-box"></div>
+          <button id="click-event">Click Event</button>
+          <p class="description1">Click the box to trigger the click event.</p>
+        </div>
+        <div class="demo1">
+          <div class="box1" id="hover-box"></div>
+          <button id="hover-event">Hover Event</button>
+          <p class="description1">
+            Hover over the box to trigger the hover event.
+          </p>
+        </div>
+        <div class="demo1">
+          <div class="box1" id="keypress-box"></div>
+          <button id="keypress-event">Keypress Event</button>
+          <p class="description1">
+            Press any key to trigger the keypress event.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
